@@ -1,6 +1,4 @@
 import React from "react";
-import Change from "../../../src/assets/img/changeIcon.png";
-import { Link } from "react-router-dom";
 import "./Login.scss";
 // import Swiper core and required modules
 
@@ -40,6 +38,7 @@ export default function Login() {
                 <img
                   className="slides__image"
                   src="https://centralaz.edu/wp-content/uploads/2019/09/Diverse-Females-Illustration.jpg"
+                  alt="ChangeFront"
                 ></img>
 
                 <h1 className="slides__text">
@@ -52,6 +51,7 @@ export default function Login() {
                 <img
                   className="slides__image"
                   src="https://thumbs.dreamstime.com/b/concept-human-brain-vector-illustration-zentangle-sketchy-doodle-poster-colorful-paint-splashes-creative-91323417.jpg"
+                  alt="ChangeFront"
                 ></img>
 
                 <h1 className="slides__text">
@@ -65,6 +65,7 @@ export default function Login() {
                 <img
                   className="slides__image"
                   src="https://i.pinimg.com/originals/65/b5/c2/65b5c2af1cfdb0aceb0ead4de29e6587.jpg"
+                  alt="ChangeFront"
                 ></img>
 
                 <h1 className="slides__text slides__text--black">
@@ -82,6 +83,7 @@ export default function Login() {
               <img
                 className="buttonLogFacebook"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Facebook_Messenger_logo_2018.svg/1200px-Facebook_Messenger_logo_2018.svg.png"
+                alt="ChangeFront"
               ></img>
               Sign in with Facebook
             </button>

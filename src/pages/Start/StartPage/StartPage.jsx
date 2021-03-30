@@ -1,6 +1,5 @@
 import React from "react";
 import "./StartPage.scss";
-import Change from "../../../../src/assets/img/changeIcon.png";
 import { Link } from "react-router-dom";
 export default function StartPage() {
   return (

@@ -1,0 +1,88 @@
+.superiorProfile {
+  .topheader {
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    &__name {
+      display: flex;
+      align-items: center;
+    }
+    .outlinedIcon {
+      padding: 0.5rem;
+    }
+  }
+  .profileInfo {
+    padding: 1rem;
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(250, 250, 250);
+    border-radius: 2rem;
+    margin: auto;
+    &__imageDiv {
+      height: 4rem;
+      width: 4rem;
+      overflow: hidden;
+      border-radius: 3rem;
+      border: 3px solid indianred;
+    }
+    &__data {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 4rem;
+      h3 {
+        margin: 0;
+      }
+      p {
+        margin: 0;
+      }
+    }
+    &__greyTitle {
+      color: grey;
+    }
+  }
+}
+
+.profileInfo2 {
+  margin-left: 2rem;
+  &__data2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  &__greyTitle {
+    color: grey;
+    margin: 0;
+  }
+}
+
+.bottomProfile {
+  height: 40vh;
+  width: 100vw;
+  background-color: rgb(126, 126, 126);
+  position: absolute;
+  bottom: 5rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow-y: scroll;
+}
+
+.imagesProfile {
+  height: 33vw;
+  width: 33vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.imagesProfileDiv {
+  margin-top: 0;
+  margin-bottom: 0;
+}

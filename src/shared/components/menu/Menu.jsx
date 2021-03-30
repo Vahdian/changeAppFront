@@ -1,29 +1,27 @@
 import React from "react";
-import { Route, Switch } from "react-router";
 import { NavLink } from "react-router-dom";
 import HomeIcon from "@material-ui/icons/Home";
 import SearchIcon from "@material-ui/icons/Search";
-import AddIcon from "@material-ui/icons/Add";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
-import PersonIcon from "@material-ui/icons/Person";
 import { Add, Person } from "@material-ui/icons";
+import "./Menu.scss";
 
 export default function Menu() {
   return (
-    <div>
-      <NavLink to="/home">
+    <div className="navbarDiv">
+      <NavLink to="/home" className="navbarDiv__item">
         <HomeIcon></HomeIcon>
       </NavLink>
-      <NavLink to="/search">
+      <NavLink to="/search" className="navbarDiv__item">
         <SearchIcon></SearchIcon>
       </NavLink>
-      <NavLink to="/add">
-        <Add></Add>
+      <NavLink to="/add" className="navbarDiv__item navbarDiv__item--add">
+        <Add className="navbarDiv__item--plus"></Add>
       </NavLink>
-      <NavLink to="/liked">
+      <NavLink to="/liked" className="navbarDiv__item">
         <FavoriteBorderIcon></FavoriteBorderIcon>
       </NavLink>
-      <NavLink to="/profile">
+      <NavLink to="/profile" className="navbarDiv__item">
         <Person></Person>
       </NavLink>
     </div>
