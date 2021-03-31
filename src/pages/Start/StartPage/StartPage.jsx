@@ -13,7 +13,7 @@ export default function StartPage() {
       <span className="startPage__text startPage__text--bottom">
         Be the change the World Needs.
       </span>
-      <Link to="/login">
+      <Link to="/board">
         <button className="genericButton">START</button>
       </Link>
     </div>

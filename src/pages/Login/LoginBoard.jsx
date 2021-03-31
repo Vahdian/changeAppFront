@@ -1,5 +1,5 @@
 import React from "react";
-import "./Login.scss";
+import "./LoginBoard.scss";
 // import Swiper core and required modules
 
 import SwiperCore, {
@@ -17,11 +17,12 @@ import "swiper/swiper.scss";
 import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
 import "swiper/components/scrollbar/scrollbar.scss";
+import { Link } from "react-router-dom";
 
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectCoverflow]);
 
-export default function Login() {
+export default function LoginBoard() {
   return (
     <div>
       <div className="loginPage">
@@ -90,7 +91,12 @@ export default function Login() {
             <button className="loginPage__bottom__button loginPage__bottom__button--black">
               Sign in with your email
             </button>
-            <p className="signUpText">Not a member? Sign up now</p>
+            <p className="signUpText">
+              Not a member?{" "}
+              <Link to="/register" className="link">
+                Sign up now
+              </Link>
+            </p>
             <p className="forgotPasswordText">Forgot password?</p>
           </div>
         </div>
